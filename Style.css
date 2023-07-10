@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 @import url('http://fonts.cdnfonts.com/css/dancing-script');
 
-
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #17141d;
@@ -10,8 +9,153 @@ body{
     font-family: 'DM Mono', monospace;
     background-color: #000000;
     overflow-x: hidden;
-}.navbar-container{
+}
+
+.navbar-container{
     height: 11vh;
     display: flex;
     justify-content: space-between;
+
 }
+.navbar-logo h1{
+    font-family: 'Dancing Script', sans-serif;
+    margin-left: 80px;
+    margin-top: 30px;
+    color:linear-gradient(90deg,#ff8a00,#e52e71); ;
+    
+}
+
+.navbar-logo h1::first-letter {
+    font-size: 200%;
+    /* color: #2596be; */
+    color: #234CC2;
+  }
+
+.navbar-logo img{
+    height: 4.5vh;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.navbar-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-right: 120px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #ffffff;
+  
+    
+}
+.item{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.navbar-items li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* ================================= About Section ========================================================= */
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* font-family: 'Dancing Script', sans-serif; */
+}
+
+.about-left img{
+    /* height: 55vh; */
+    margin-top: 40px;
+    /* width: 20vw; */
+    height: 65vh;
+    width: 25vw;
+    margin-right: 20px;
+   
+   
+}
+.about-left img:hover{
+    transition: all 0.5s ease-in-out 0s;
+    transform: scale(1);
+}
+
+.about-right{
+    height: 70vh;
+    width: 40%;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.about-right h5{
+    margin-top: 110px;
+    color: var(--primary-light);
+    font-size:1.6rem;
+}
+
+.about-right h2{
+    line-height: 1px;
+    color: var(--white);
+    font-size: 3.6rem;
+    /* border: 2px solid white; */
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-right h5 {
+    color: transparent;
+    font-size: 1.4rem;
+    position: relative;
+    overflow: hidden;
+   }
+   
+   .about-right h5::before {
+    content: "Hello, I'm Aryan Yadav";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 4px solid purple;
+    overflow: hidden;
+    color: purple;
+    animation: load91371 5s linear infinite;
+   }
+   
+   @keyframes load91371 {
+    0%,10%,100% {
+     width: 0;
+    }
+   
+    10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+     border-right-color: transparent;
+    }
+   
+    11%,21%,31%,41%,51%,61%,71%,81%,91% {
+     border-right-color: purple;
+    }
+   
+    60%, 80% {
+     width: 380px;
+    }
+   }
+
+
