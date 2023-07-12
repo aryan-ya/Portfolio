@@ -8,102 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Wix Madefor Display', sans-serif;
-        }
-
-        body {
-            /* background-color: rgb(0, 0, 33); */
-            background-color: black;
-            color: white;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            background-color: rgb(18, 18, 62);
-            height: 80px;
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-
-        li a {
-            text-decoration: none;
-            color: white;
-            font-size: 1rem;
-        }
-
-        li a:hover {
-
-            color: blue;
-            font-size: 1.2rem;
-
-        }
-
-        .left h1::first-letter {
-            color: red;
-            font-size: 200%;
-        }
-
-        .left h1 {
-            font-size: 1.6rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            margin: 23px 0;
-        }
-
-        .leftSection {
-            font-size: 1rem;
-
-        }
-
-        .rightSection {
-            /* background-color: red; */
-        }
-
-        img {
-            height: 400px;
-            width: 350px;
-            border-radius: 35px;
-
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-            padding-left: 40px;
-            font-size: 2.5rem;
-            margin: 70px 0;
-            align-items: center;
-        }
-
-        .purple {
-            color: blueviolet;
-        }
-
-        #element {
-            color: blueviolet;
-        }
-    </style>
 </head>
 
 <body>
@@ -115,10 +21,10 @@
             <div class="right">
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="">Project</a></li>
 
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="">Skill</a></li>
+                    
                     <li><a href="">Contact me</a></li>
 
 
@@ -132,19 +38,152 @@
         <section class="firstSection">
             <div class="leftSection">
                 Hi My Name is
-          
-                <span class="purple"> Aryan</span>
+
+                <span class="purple">Aryan</span>
                 <div>and I m a Passionate</div>
                 <!-- <div>Web Developer</div> -->
                 <span id="element"></span>
+                <div>
+                    <button>Downloadcv</button>
+
+                </div>
+
             
-
-
             </div>
+            
             <div class="rightSection">
-                <img src="Aryan.jpg" alt="" srcset="">
+                <img class="portfolio" src="Aryan.jpg" alt="" srcset="">
             </div>
         </section>
+        <hr />
+      <!-- project section -->
+        <section class="project-section" id="project">
+
+          
+            <h1>My Projects</h1>
+    
+           
+            <div class="project-container">
+    
+           
+                <div class="project-card">
+                    <img src="./images/Screenshot (606).png" alt="">
+                    <h1 class="projecth1">Restaurants</h1>
+                    <p>Project 1</p>
+                    <div class="show-case">
+                    <a href="https://restaurants-landingproject.netlify.app/"><button class="btn">Live</button></a>
+                        
+                    <a href=""><button class="btnn">Github</button></a>
+                    </div>
+                </div>
+    
+               
+                <div class="project-card">
+                    <img src="./img/Screenshot (57).png" alt="">
+                    <h1>Food Website</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/gzJiKEK4" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/g9cnC6ai" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+    
+             
+                <div class="project-card">
+                    <img src="./img/Screenshot (58).png" alt="">
+                    <h1>Time Counter</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/g2rCRjzy" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/gFc_GGFF" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./images/Screenshot (606).png" alt="">
+                    <h1>Baisc Calculator</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/gnKUCARr" class="fa-brands fa-github"><button>live</button></a>
+                        <a href="https://lnkd.in/gvVAytuf" class="fa-solid fa-eye"><button>github</button></a>
+                    </div>
+                </div>
+    
+               
+                <div class="project-card">
+                    <img src="./img/Screenshot (57).png" alt="">
+                    <h1>Food Website</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/gzJiKEK4" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/g9cnC6ai" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+    
+
+                <div class="project-card">
+                    <img src="./img/Screenshot (58).png" alt="">
+                    <h1>Time Counter</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/g2rCRjzy" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/gFc_GGFF" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card">
+                    <img src="./images/Screenshot (606).png" alt="">
+                    <h1>Baisc Calculator</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/gnKUCARr" class="fa-brands fa-github"><button>live</button></a>
+                        <a href="https://lnkd.in/gvVAytuf" class="fa-solid fa-eye"><button>github</button></a>
+                    </div>
+                </div>
+    
+              
+                <div class="project-card">
+                    <img src="./img/Screenshot (57).png" alt="">
+                    <h1>Food Website</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/gzJiKEK4" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/g9cnC6ai" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+    
+            
+                <div class="project-card">
+                    <img src="./img/Screenshot (58).png" alt="">
+                    <h1>Time Counter</h1>
+                    <p>HTML, CSS and JavaScript</p>
+                    </p>
+                    <div class="show-case">
+                        <a href="https://lnkd.in/g2rCRjzy" class="fa-brands fa-github"></a>
+                        <a href="https://lnkd.in/gFc_GGFF" class="fa-solid fa-eye"></a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+    
+    
+       
+
+
+        
+
+
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
@@ -155,11 +194,11 @@
             typeSpeed: 80,
 
         });
-     
-        
+
+
 
     </script>
-     
+
 </body>
 
 </html>
