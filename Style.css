@@ -187,9 +187,24 @@ h2 {
 /* .project-card h1{
     color: black;
 } */
-.project h1{
-
-}
+.download-button {
+    display: inline-block;
+    background-color: violet; /* Blue background */
+    border: none;  /* Remove borders */
+    color: white;  /* White text */
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+  }
+  
+ .hire{
+    margin-top: 20px;
+  }
+  
 
 .show-case a{
     font-size: 1.6rem;
