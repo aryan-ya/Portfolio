@@ -147,10 +147,14 @@ h2 {
     margin-bottom: 20px;
     font-size: 2rem;
     transition: all 0.5s ease-in;
+}.projecth1::first-letter{
+    color: blue;
+    font-size: 200%;
+  
 }.projecth1{
-    color: white;
+  position: relative;
+  right: 550px;
 }
-
 
 
 
@@ -180,8 +184,11 @@ h2 {
     height: 200px;
 }
 
-.project-card h1{
+/* .project-card h1{
     color: black;
+} */
+.project h1{
+
 }
 
 .show-case a{
